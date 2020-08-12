@@ -1,0 +1,86 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2693317046" file="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\FourierSeriesWithMATLAB\Fourier Series Explorer.prj" location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\FourierSeriesWithMATLAB" name="Fourier Series Explorer" target="target.mlapps" target-name="Package App">
+    <param.appname>Fourier Series Explorer</param.appname>
+    <param.authnamewatermark>Angora Tutor</param.authnamewatermark>
+    <param.email>info@angoratutor.com</param.email>
+    <param.company>Angora Tutor</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Explore Fourier series analysis and synthesis visually.</param.summary>
+    <param.description>Fourier series analysis and synthesis is an important dignal processing tool. This app helps you explore the Fourier series analysis and synthesis together with some important properties visually. Refer to the fourier_series_properties LiveScript for more details.</param.description>
+    <param.screenshot>C:\Users\emsoz\AppData\Local\Temp\tp1c216fb3_1b4a_410d_a3f4_caa3b2bba4d0.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.8</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>d2312d65-3428-45a6-be3c-1ffe338dae69</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\FourierSeriesExplorer.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\analysis_real_coeffs.PNG</file>
+      <file>${PROJECT_ROOT}\conjsym_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\conjsym_time.PNG</file>
+      <file>${PROJECT_ROOT}\convfreq_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\convfreq_time.PNG</file>
+      <file>${PROJECT_ROOT}\convtime_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\convtime_time.PNG</file>
+      <file>${PROJECT_ROOT}\fourier_series_properties.mlx</file>
+      <file>${PROJECT_ROOT}\linearity_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\linearity_time.PNG</file>
+      <file>${PROJECT_ROOT}\synthesis_real_coeffs.PNG</file>
+      <file>${PROJECT_ROOT}\timerevelsal_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\timerevelsal_time.PNG</file>
+      <file>${PROJECT_ROOT}\timescaling_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\timeshift_frequency.PNG</file>
+      <file>${PROJECT_ROOT}\timeshift_time.PNG</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub" name="FourierSeriesWithMATLAB" optional="false">C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\FourierSeriesWithMATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
